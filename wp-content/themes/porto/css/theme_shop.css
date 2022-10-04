@@ -2948,7 +2948,7 @@ h2.resp-accordion {
   /*-webkit-appearance: none;
   -ms-appearance: none;
   -moz-appearance: none;
-  background: #fff url("../images/select-bg.svg") no-repeat scroll;
+  background: #fff url("/wp-content/themes/porto/images/select-bg.svg") no-repeat scroll;
   @if $rtl == 1 {
       background-position: 4% 48%;
   } @else {
