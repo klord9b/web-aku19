@@ -617,7 +617,7 @@ img.emoji {
 <li id="nav-menu-item-1740" class="menu-item menu-item-type-custom menu-item-object-custom narrow"><a target="_blank" href="https://www.portotheme.com/buynow/portowp/">Buy Porto!</a></li>
 </ul>
 <span class="separator"></span><div class="searchform-popup search-popup">
-<a class="search-toggle" aria-label="Search Toggle" href="#"><i class="fas fa-search"></i><span class="search-text">Search</span></a>	<form action="https://web-aku19.run-us-west2.goorm.io/site6/" method="get" class="searchform">
+<a class="search-toggle" aria-label="Search Toggle" href="#"><i class="fas fa-search"></i><span class="search-text">Search</span></a>	<form action="/site6/" method="get" class="searchform">
 		<div class="searchform-fields">
 			<span class="text"><input name="s" type="text" value="" placeholder="Search&hellip;" autocomplete="off"></span>
 						<span class="button-wrap">
@@ -1195,7 +1195,7 @@ img.emoji {
 					<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-cef188a elementor-widget elementor-widget-porto_google_map" data-id="cef188a" data-element_type="widget" data-widget_type="porto_google_map.default">
 				<div class="elementor-widget-container">
-			<div id="wrap_map_633cf32954997" class="porto-map-wrapper  "><div id="map_633cf32954997" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
+			<div id="wrap_map_633d0f67cb5dc" class="porto-map-wrapper  "><div id="map_633d0f67cb5dc" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
 <script>
 ( function() {
 	var porto_init_map = function() {
@@ -1204,14 +1204,14 @@ img.emoji {
 			if (typeof google == 'undefined') {
 				return;
 			}
-			var map_map_633cf32954997 = null;
-			var coordinate_map_633cf32954997;
+			var map_map_633d0f67cb5dc = null;
+			var coordinate_map_633d0f67cb5dc;
 			try {
-				coordinate_map_633cf32954997=new google.maps.LatLng(40.7528214, -73.9580603);
+				coordinate_map_633d0f67cb5dc=new google.maps.LatLng(40.7528214, -73.9580603);
 				var isDraggable = $(document).width() > 640 ? true : false;
 				var mapOptions = {
 					zoom: 12,
-					center: coordinate_map_633cf32954997,
+					center: coordinate_map_633d0f67cb5dc,
 					scaleControl: true,
 					streetViewControl: false,
 					mapTypeControl: false,
@@ -1221,21 +1221,21 @@ img.emoji {
 					draggable: isDraggable,
 					zoomControlOptions: {
 						position: google.maps.ControlPosition.RIGHT_BOTTOM
-					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633cf32954997 = new google.maps.Map(document.getElementById('map_633cf32954997'),mapOptions);
+					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633d0f67cb5dc = new google.maps.Map(document.getElementById('map_633d0f67cb5dc'),mapOptions);
 						var x = 'on';
-						var marker_map_633cf32954997 = new google.maps.Marker({
+						var marker_map_633d0f67cb5dc = new google.maps.Marker({
 						position: new google.maps.LatLng(40.7528214, -73.9580603),
 						animation:  google.maps.Animation.DROP,
-						map: map_map_633cf32954997,
+						map: map_map_633d0f67cb5dc,
 						icon: ''
 					});
-					google.maps.event.addListener(marker_map_633cf32954997, 'click', toggleBounce);}
+					google.maps.event.addListener(marker_map_633d0f67cb5dc, 'click', toggleBounce);}
 			catch(e){};
-			google.maps.event.trigger(map_map_633cf32954997, 'resize');
+			google.maps.event.trigger(map_map_633d0f67cb5dc, 'resize');
 			$(window).on('resize', function(){
-				google.maps.event.trigger(map_map_633cf32954997, 'resize');
-				if(map_map_633cf32954997!=null) {
-					map_map_633cf32954997.setCenter(coordinate_map_633cf32954997);
+				google.maps.event.trigger(map_map_633d0f67cb5dc, 'resize');
+				if(map_map_633d0f67cb5dc!=null) {
+					map_map_633d0f67cb5dc.setCenter(coordinate_map_633d0f67cb5dc);
 				}
 			});
 			$('.ui-tabs').on('tabsactivate', function(event, ui) {
@@ -1254,17 +1254,17 @@ img.emoji {
 				}
 			});
 			$(document).on('onPortoModalPopupOpen', function(){
-				if($(map_map_633cf32954997).parents('.porto_modal-content')) {
+				if($(map_map_633d0f67cb5dc).parents('.porto_modal-content')) {
 					setTimeout(function(){
 						$(window).trigger('resize');
 					},200);
 				}
 			});
 			function toggleBounce() {
-				if (marker_map_633cf32954997.getAnimation() != null) {
-					marker_map_633cf32954997.setAnimation(null);
+				if (marker_map_633d0f67cb5dc.getAnimation() != null) {
+					marker_map_633d0f67cb5dc.setAnimation(null);
 				} else {
-					marker_map_633cf32954997.setAnimation(google.maps.Animation.BOUNCE);
+					marker_map_633d0f67cb5dc.setAnimation(google.maps.Animation.BOUNCE);
 				}
 			}
 		} )( window.jQuery );
@@ -1568,7 +1568,7 @@ var porto_live_search = {"nonce":"2495124740"};
 <script src="/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
 <script async="async" src="/wp-content/themes/porto/js/libs/jquery.magnific-popup.min.js?ver=1.1.0" id="jquery-magnific-popup-js"></script>
 <script id="porto-theme-js-extra">
-var js_porto_vars = {"rtl":"","theme_url":"\/wp-content\/themes\/porto","ajax_url":"\/wp-admin\/admin-ajax.php","change_logo":"","container_width":"1140","grid_gutter_width":"24","show_sticky_header":"1","show_sticky_header_tablet":"","show_sticky_header_mobile":"","ajax_loader_url":"\/\/\/wp-content\/themes\/porto\/images\/ajax-loader@2x.gif","category_ajax":"","compare_popup":"","compare_popup_title":"","prdctfltr_ajax":"","slider_loop":"1","slider_autoplay":"1","slider_autoheight":"","slider_speed":"5000","slider_nav":"","slider_nav_hover":"1","slider_margin":"","slider_dots":"1","slider_animatein":"","slider_animateout":"","product_thumbs_count":"","product_zoom":"","product_zoom_mobile":"","product_image_popup":"","zoom_type":"","zoom_scroll":"","zoom_lens_size":"","zoom_lens_shape":"","zoom_contain_lens":"","zoom_lens_border":"","zoom_border_color":"","zoom_border":"0","screen_lg":"1164","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"94894e5ce2","use_skeleton_screen":["blog"],"user_edit_pages":""};
+var js_porto_vars = {"rtl":"","theme_url":"\/site6\/wp-content\/themes\/porto","ajax_url":"\/site6\/wp-admin\/admin-ajax.php","change_logo":"","container_width":"1140","grid_gutter_width":"24","show_sticky_header":"1","show_sticky_header_tablet":"","show_sticky_header_mobile":"","ajax_loader_url":"\/\/\/wp-content\/themes\/porto\/images\/ajax-loader@2x.gif","category_ajax":"","compare_popup":"","compare_popup_title":"","prdctfltr_ajax":"","slider_loop":"1","slider_autoplay":"1","slider_autoheight":"","slider_speed":"5000","slider_nav":"","slider_nav_hover":"1","slider_margin":"","slider_dots":"1","slider_animatein":"","slider_animateout":"","product_thumbs_count":"","product_zoom":"","product_zoom_mobile":"","product_image_popup":"","zoom_type":"","zoom_scroll":"","zoom_lens_size":"","zoom_lens_shape":"","zoom_contain_lens":"","zoom_lens_border":"","zoom_border_color":"","zoom_border":"0","screen_lg":"1164","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"94894e5ce2","use_skeleton_screen":["blog"],"user_edit_pages":""};
 </script>
 <script src="/wp-content/themes/porto/js/theme.js?ver=6.5.0" id="porto-theme-js"></script>
 <script async="async" src="/wp-content/themes/porto/js/theme-async.js?ver=6.5.0" id="porto-theme-async-js"></script>
@@ -1580,7 +1580,7 @@ var js_porto_vars = {"rtl":"","theme_url":"\/wp-content\/themes\/porto","ajax_ur
 <script src="/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"></script>
 <script id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":992,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":991,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.7","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"viewport_tablet":"991","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1026,"title":"Contact%20Us%20%E2%80%93%20Site6","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":992,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":991,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.7.7","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"additional_custom_breakpoints":true,"e_import_export":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"\/site6\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"viewport_tablet":"991","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1026,"title":"Contact%20Us%20%E2%80%93%20Site6","excerpt":"","featuredImage":false}};
 </script>
 <script src="/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.7" id="elementor-frontend-js"></script>
 		<!-- TODO: setup ajax -->
