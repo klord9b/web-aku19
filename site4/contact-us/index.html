@@ -1193,7 +1193,7 @@ img.emoji {
 					<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-8e97cc1 elementor-widget elementor-widget-porto_google_map" data-id="8e97cc1" data-element_type="widget" data-widget_type="porto_google_map.default">
 				<div class="elementor-widget-container">
-			<div id="wrap_map_633cf04a0be80" class="porto-map-wrapper  "><div id="map_633cf04a0be80" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
+			<div id="wrap_map_633d1eb523752" class="porto-map-wrapper  "><div id="map_633d1eb523752" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
 <script>
 ( function() {
 	var porto_init_map = function() {
@@ -1202,14 +1202,14 @@ img.emoji {
 			if (typeof google == 'undefined') {
 				return;
 			}
-			var map_map_633cf04a0be80 = null;
-			var coordinate_map_633cf04a0be80;
+			var map_map_633d1eb523752 = null;
+			var coordinate_map_633d1eb523752;
 			try {
-				coordinate_map_633cf04a0be80=new google.maps.LatLng(40.7528214, -73.9580603);
+				coordinate_map_633d1eb523752=new google.maps.LatLng(40.7528214, -73.9580603);
 				var isDraggable = $(document).width() > 640 ? true : false;
 				var mapOptions = {
 					zoom: 12,
-					center: coordinate_map_633cf04a0be80,
+					center: coordinate_map_633d1eb523752,
 					scaleControl: true,
 					streetViewControl: false,
 					mapTypeControl: false,
@@ -1219,21 +1219,21 @@ img.emoji {
 					draggable: isDraggable,
 					zoomControlOptions: {
 						position: google.maps.ControlPosition.RIGHT_BOTTOM
-					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633cf04a0be80 = new google.maps.Map(document.getElementById('map_633cf04a0be80'),mapOptions);
+					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633d1eb523752 = new google.maps.Map(document.getElementById('map_633d1eb523752'),mapOptions);
 						var x = 'on';
-						var marker_map_633cf04a0be80 = new google.maps.Marker({
+						var marker_map_633d1eb523752 = new google.maps.Marker({
 						position: new google.maps.LatLng(40.7528214, -73.9580603),
 						animation:  google.maps.Animation.DROP,
-						map: map_map_633cf04a0be80,
+						map: map_map_633d1eb523752,
 						icon: ''
 					});
-					google.maps.event.addListener(marker_map_633cf04a0be80, 'click', toggleBounce);}
+					google.maps.event.addListener(marker_map_633d1eb523752, 'click', toggleBounce);}
 			catch(e){};
-			google.maps.event.trigger(map_map_633cf04a0be80, 'resize');
+			google.maps.event.trigger(map_map_633d1eb523752, 'resize');
 			$(window).on('resize', function(){
-				google.maps.event.trigger(map_map_633cf04a0be80, 'resize');
-				if(map_map_633cf04a0be80!=null) {
-					map_map_633cf04a0be80.setCenter(coordinate_map_633cf04a0be80);
+				google.maps.event.trigger(map_map_633d1eb523752, 'resize');
+				if(map_map_633d1eb523752!=null) {
+					map_map_633d1eb523752.setCenter(coordinate_map_633d1eb523752);
 				}
 			});
 			$('.ui-tabs').on('tabsactivate', function(event, ui) {
@@ -1252,17 +1252,17 @@ img.emoji {
 				}
 			});
 			$(document).on('onPortoModalPopupOpen', function(){
-				if($(map_map_633cf04a0be80).parents('.porto_modal-content')) {
+				if($(map_map_633d1eb523752).parents('.porto_modal-content')) {
 					setTimeout(function(){
 						$(window).trigger('resize');
 					},200);
 				}
 			});
 			function toggleBounce() {
-				if (marker_map_633cf04a0be80.getAnimation() != null) {
-					marker_map_633cf04a0be80.setAnimation(null);
+				if (marker_map_633d1eb523752.getAnimation() != null) {
+					marker_map_633d1eb523752.setAnimation(null);
 				} else {
-					marker_map_633cf04a0be80.setAnimation(google.maps.Animation.BOUNCE);
+					marker_map_633d1eb523752.setAnimation(google.maps.Animation.BOUNCE);
 				}
 			}
 		} )( window.jQuery );
@@ -1566,7 +1566,7 @@ var porto_live_search = {"nonce":"2495124740"};
 <script src="/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"></script>
 <script async="async" src="/wp-content/themes/porto/js/libs/jquery.magnific-popup.min.js?ver=1.1.0" id="jquery-magnific-popup-js"></script>
 <script id="porto-theme-js-extra">
-var js_porto_vars = {"rtl":"","theme_url":"\/wp-content\/themes\/porto","ajax_url":"\/wp-admin\/admin-ajax.php","change_logo":"1","container_width":"1140","grid_gutter_width":"24","show_sticky_header":"1","show_sticky_header_tablet":"","show_sticky_header_mobile":"","ajax_loader_url":"\/\/\/wp-content\/themes\/porto\/images\/ajax-loader@2x.gif","category_ajax":"","compare_popup":"","compare_popup_title":"","prdctfltr_ajax":"","slider_loop":"1","slider_autoplay":"1","slider_autoheight":"","slider_speed":"5000","slider_nav":"","slider_nav_hover":"1","slider_margin":"","slider_dots":"1","slider_animatein":"","slider_animateout":"","product_thumbs_count":"","product_zoom":"","product_zoom_mobile":"","product_image_popup":"","zoom_type":"","zoom_scroll":"","zoom_lens_size":"","zoom_lens_shape":"","zoom_contain_lens":"","zoom_lens_border":"","zoom_border_color":"","zoom_border":"0","screen_lg":"1164","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"94894e5ce2","use_skeleton_screen":["blog"],"user_edit_pages":""};
+var js_porto_vars = {"rtl":"","theme_url":"\/wp-content\/themes\/porto","ajax_url":"\/site4\/wp-admin\/admin-ajax.php","change_logo":"1","container_width":"1140","grid_gutter_width":"24","show_sticky_header":"1","show_sticky_header_tablet":"","show_sticky_header_mobile":"","ajax_loader_url":"\/\/\/wp-content\/themes\/porto\/images\/ajax-loader@2x.gif","category_ajax":"","compare_popup":"","compare_popup_title":"","prdctfltr_ajax":"","slider_loop":"1","slider_autoplay":"1","slider_autoheight":"","slider_speed":"5000","slider_nav":"","slider_nav_hover":"1","slider_margin":"","slider_dots":"1","slider_animatein":"","slider_animateout":"","product_thumbs_count":"","product_zoom":"","product_zoom_mobile":"","product_image_popup":"","zoom_type":"","zoom_scroll":"","zoom_lens_size":"","zoom_lens_shape":"","zoom_contain_lens":"","zoom_lens_border":"","zoom_border_color":"","zoom_border":"0","screen_lg":"1164","mfp_counter":"%curr% of %total%","mfp_img_error":"<a href=\"%url%\">The image<\/a> could not be loaded.","mfp_ajax_error":"<a href=\"%url%\">The content<\/a> could not be loaded.","popup_close":"Close","popup_prev":"Previous","popup_next":"Next","request_error":"The requested content cannot be loaded.<br\/>Please try again later.","loader_text":"Loading...","submenu_back":"Back","porto_nonce":"94894e5ce2","use_skeleton_screen":["blog"],"user_edit_pages":""};
 </script>
 <script src="/wp-content/themes/porto/js/theme.js?ver=6.5.0" id="porto-theme-js"></script>
 <script async="async" src="/wp-content/themes/porto/js/theme-async.js?ver=6.5.0" id="porto-theme-async-js"></script>
