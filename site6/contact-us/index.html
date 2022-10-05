@@ -1195,7 +1195,7 @@ img.emoji {
 					<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-cef188a elementor-widget elementor-widget-porto_google_map" data-id="cef188a" data-element_type="widget" data-widget_type="porto_google_map.default">
 				<div class="elementor-widget-container">
-			<div id="wrap_map_633d109b3f239" class="porto-map-wrapper  "><div id="map_633d109b3f239" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
+			<div id="wrap_map_633d521251e4a" class="porto-map-wrapper  "><div id="map_633d521251e4a" data-map_override="0" class="porto_google_map page_margin_top"></div></div>
 <script>
 ( function() {
 	var porto_init_map = function() {
@@ -1204,14 +1204,14 @@ img.emoji {
 			if (typeof google == 'undefined') {
 				return;
 			}
-			var map_map_633d109b3f239 = null;
-			var coordinate_map_633d109b3f239;
+			var map_map_633d521251e4a = null;
+			var coordinate_map_633d521251e4a;
 			try {
-				coordinate_map_633d109b3f239=new google.maps.LatLng(40.7528214, -73.9580603);
+				coordinate_map_633d521251e4a=new google.maps.LatLng(40.7528214, -73.9580603);
 				var isDraggable = $(document).width() > 640 ? true : false;
 				var mapOptions = {
 					zoom: 12,
-					center: coordinate_map_633d109b3f239,
+					center: coordinate_map_633d521251e4a,
 					scaleControl: true,
 					streetViewControl: false,
 					mapTypeControl: false,
@@ -1221,21 +1221,21 @@ img.emoji {
 					draggable: isDraggable,
 					zoomControlOptions: {
 						position: google.maps.ControlPosition.RIGHT_BOTTOM
-					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633d109b3f239 = new google.maps.Map(document.getElementById('map_633d109b3f239'),mapOptions);
+					},mapTypeId: google.maps.MapTypeId.ROADMAP,};var map_map_633d521251e4a = new google.maps.Map(document.getElementById('map_633d521251e4a'),mapOptions);
 						var x = 'on';
-						var marker_map_633d109b3f239 = new google.maps.Marker({
+						var marker_map_633d521251e4a = new google.maps.Marker({
 						position: new google.maps.LatLng(40.7528214, -73.9580603),
 						animation:  google.maps.Animation.DROP,
-						map: map_map_633d109b3f239,
+						map: map_map_633d521251e4a,
 						icon: ''
 					});
-					google.maps.event.addListener(marker_map_633d109b3f239, 'click', toggleBounce);}
+					google.maps.event.addListener(marker_map_633d521251e4a, 'click', toggleBounce);}
 			catch(e){};
-			google.maps.event.trigger(map_map_633d109b3f239, 'resize');
+			google.maps.event.trigger(map_map_633d521251e4a, 'resize');
 			$(window).on('resize', function(){
-				google.maps.event.trigger(map_map_633d109b3f239, 'resize');
-				if(map_map_633d109b3f239!=null) {
-					map_map_633d109b3f239.setCenter(coordinate_map_633d109b3f239);
+				google.maps.event.trigger(map_map_633d521251e4a, 'resize');
+				if(map_map_633d521251e4a!=null) {
+					map_map_633d521251e4a.setCenter(coordinate_map_633d521251e4a);
 				}
 			});
 			$('.ui-tabs').on('tabsactivate', function(event, ui) {
@@ -1254,17 +1254,17 @@ img.emoji {
 				}
 			});
 			$(document).on('onPortoModalPopupOpen', function(){
-				if($(map_map_633d109b3f239).parents('.porto_modal-content')) {
+				if($(map_map_633d521251e4a).parents('.porto_modal-content')) {
 					setTimeout(function(){
 						$(window).trigger('resize');
 					},200);
 				}
 			});
 			function toggleBounce() {
-				if (marker_map_633d109b3f239.getAnimation() != null) {
-					marker_map_633d109b3f239.setAnimation(null);
+				if (marker_map_633d521251e4a.getAnimation() != null) {
+					marker_map_633d521251e4a.setAnimation(null);
 				} else {
-					marker_map_633d109b3f239.setAnimation(google.maps.Animation.BOUNCE);
+					marker_map_633d521251e4a.setAnimation(google.maps.Animation.BOUNCE);
 				}
 			}
 		} )( window.jQuery );
