@@ -2310,7 +2310,7 @@ html .vc_col-has-fill .porto-btn.porto-adjust-bottom-margin {
 .porto-concept {
   width: 100%;
   overflow: hidden;
-  background: url(../images/concept.png) no-repeat center 0;
+  background: url(/wp-content/themes/porto/images/concept.png) no-repeat center 0;
 }
 .porto-concept strong {
   display: block;
@@ -2333,7 +2333,7 @@ html .vc_col-has-fill .porto-btn.porto-adjust-bottom-margin {
   padding-bottom: 50px;
   position: relative;
   z-index: 1;
-  background: url(../images/concept-item.png) no-repeat 0 0;
+  background: url(/wp-content/themes/porto/images/concept-item.png) no-repeat 0 0;
 }
 .porto-concept .process-image img {
   border-radius: 150px;
@@ -2351,7 +2351,7 @@ html .vc_col-has-fill .porto-btn.porto-adjust-bottom-margin {
   padding-bottom: 45px;
   position: relative;
   z-index: 1;
-  background: url(../images/concept-item.png) no-repeat 100% 0;
+  background: url(/wp-content/themes/porto/images/concept-item.png) no-repeat 100% 0;
 }
 .porto-concept .project-image img {
   width: 338px;
@@ -2363,7 +2363,7 @@ html .vc_col-has-fill .porto-btn.porto-adjust-bottom-margin {
   position: absolute;
   left: 0;
   top: 65px;
-  background: url(../images/concept-icons.png) no-repeat 0 0;
+  background: url(/wp-content/themes/porto/images/concept-icons.png) no-repeat 0 0;
 }
 .porto-concept .cloud {
   width: 116px;
@@ -2372,7 +2372,7 @@ html .vc_col-has-fill .porto-btn.porto-adjust-bottom-margin {
   position: absolute;
   left: 53%;
   top: 35px;
-  background: url(../images/concept-icons.png) no-repeat 100% 0;
+  background: url(/wp-content/themes/porto/images/concept-icons.png) no-repeat 100% 0;
 }
 
 .porto-concept strong,
@@ -4491,7 +4491,7 @@ h3.porto-sicon-title small {
 }
 
 .snowfall {
-  background-image: url(../images/effects/s1.png), url(../images/effects/s2.png), url(../images/effects/s3.png);
+  background-image: url(/wp-content/themes/porto/images/effects/s1.png), url(/wp-content/themes/porto/images/effects/s2.png), url(/wp-content/themes/porto/images/effects/s3.png);
   animation: snow 10s linear infinite;
   z-index: 1;
 }
@@ -4508,7 +4508,7 @@ h3.porto-sicon-title small {
   }
 }
 .effect-snow {
-  background-image: url(../images/effects/s4.png), url(../images/effects/s5.png);
+  background-image: url(/wp-content/themes/porto/images/effects/s4.png), url(/wp-content/themes/porto/images/effects/s5.png);
   animation: snowsecond 20s linear infinite;
 }
 
@@ -4521,7 +4521,7 @@ h3.porto-sicon-title small {
   }
 }
 .sparkle {
-  background-image: url(../images/effects/sparkle1.png), url(../images/effects/sparkle2.png);
+  background-image: url(/wp-content/themes/porto/images/effects/sparkle1.png), url(/wp-content/themes/porto/images/effects/sparkle2.png);
   animation: sparkle 60s linear infinite;
 }
 
@@ -4602,7 +4602,7 @@ h3.porto-sicon-title small {
 .porto-map-section {
   padding-top: 164px;
   margin: 15px -30px 0;
-  background: url(../images/map.png) center 0 no-repeat;
+  background: url(/wp-content/themes/porto/images/map.png) center 0 no-repeat;
 }
 .porto-map-section .map-content {
   background-color: rgba(247, 247, 247, 0.5);
@@ -5489,7 +5489,7 @@ div.stats-desc > div.counter_suffix {
 }
 
 .slick-loading .slick-list {
-  background: #fff url("../images/AjaxLoader.gif") center center no-repeat;
+  background: #fff url("/wp-content/themes/porto/images/AjaxLoader.gif") center center no-repeat;
 }
 
 .slick-list.dragging {
@@ -6498,7 +6498,7 @@ body .slick-slide img {
 }
 
 .section-video .video-overlay {
-  background: transparent url(../images/video-overlay.png) repeat 0 0;
+  background: transparent url(/wp-content/themes/porto/images/video-overlay.png) repeat 0 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -6509,7 +6509,7 @@ body .slick-slide img {
 }
 
 .section-video.video-overlay-dark .video-overlay {
-  background-image: url(../images/video-overlay-dark.png);
+  background-image: url(/wp-content/themes/porto/images/video-overlay-dark.png);
 }
 
 html.boxed .section-video > div:first-child {
@@ -6604,7 +6604,7 @@ html.boxed .section-video > div:first-child video {
   position: relative;
 }
 .vc_separator .vc_sep_holder.vc_sep_holder_l .vc_sep_line.pattern:after, .vc_separator .vc_sep_holder.vc_sep_holder_r .vc_sep_line.pattern:after {
-  background: transparent url(../images/patterns/worn_dots.png) repeat 0 0;
+  background: transparent url(/wp-content/themes/porto/images/patterns/worn_dots.png) repeat 0 0;
   content: "";
   display: block;
   height: 15px;
@@ -6614,7 +6614,7 @@ html.boxed .section-video > div:first-child video {
   width: 100%;
 }
 .vc_separator .vc_sep_holder.vc_sep_holder_l .vc_sep_line.pattern.pattern-2:after, .vc_separator .vc_sep_holder.vc_sep_holder_r .vc_sep_line.pattern.pattern-2:after {
-  background-image: url(../images/patterns/az_subtle.png);
+  background-image: url(/wp-content/themes/porto/images/patterns/az_subtle.png);
 }
 
 /* Visual Composer Single Image */
